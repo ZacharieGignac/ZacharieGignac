@@ -1,22 +1,74 @@
-<html>
-  <head>
-    <title>Zacharie Gignac - github</title>
-    <style type="text/css">
-      body {
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 16px;
-      }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zacharie Gignac - Personal Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #007bff;
+        }
+
+        p {
+            font-size: 16px;
+        }
     </style>
-  </head>
-  <body>
-    <h3>PrepOS</h3>
-    <ul>
-      <li>
-        <a href="prepos-boot.txt">Boot log</a>
-      </li>
-      <li>
-        <a href="prepos-wakeup.txt">Wakeup log</a>
-      </li>
-    </ul>
-  </body>
+</head>
+<body>
+    <header>
+        <h1>Zacharie Gignac</h1>
+    </header>
+    <div class="container">
+        <h2>PrepOS</h2>
+        <ul>
+            <li>
+                <a href="prepos-boot.txt">Boot log</a>
+                <p>From macro activation to standby</p>
+            </li>
+            <li>
+                <a href="prepos-wakeup">Project 2</a>
+                <p>From standby to default scenario</p>
+            </li>
+            <!-- Add more projects as needed -->
+        </ul>
+    </div>
+</body>
 </html>
